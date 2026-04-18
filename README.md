@@ -1,26 +1,28 @@
-# Visa Management System (Simple CRUD)
+# Visa Management System (Inspired by Moldova Visa Portal)
 
-A clean and efficient Visa Management application developed using the **Laravel** framework. This project demonstrates the core concepts of CRUD operations, form validation, and secure file handling.
+A clean and efficient Visa Management application developed using the **Laravel 12** framework. This project is inspired by the **Moldova Visa Checking System**, focusing on core CRUD operations, secure file handling, and a realistic visa status inquiry flow.
 
 ## 🌟 Features
 
-- **Visa Records CRUD:** Complete Create, Read, Update, and Delete functionality for managing visa records.
-- **Secure File Upload:** Integrated document upload feature allowing users to attach and store visa-related files (e.g., PDF, Images) securely on the server.
-- **Custom Captcha Security:** A custom-built security layer using the PHP **GD Library** to generate image-based captchas, protecting the system from automated spam submissions.
-- **Form Validation:** Robust server-side validation to ensure data integrity and proper file format handling.
+- **Moldova Portal Logic:** Designed to emulate the workflow of a real-world visa checking portal, allowing users to search and verify visa records.
+- **Visa Records CRUD:** Complete Create, Read, Update, and Delete functionality for managing visa applications in the backend.
+- **Secure File Upload:** Integrated document management allowing users/admins to attach and store visa-related files (e.g., PDF, Images) securely using Laravel Storage.
+- **Custom Captcha Security:** A native, custom-built security layer using the PHP **GD Library**. It generates image-based captchas to protect the search and submission forms from automated spam.
+- **Robust Validation:** Strict server-side validation to ensure data integrity and secure file format handling.
 
 ## 📸 Screenshots
 
-*(Add your project screenshots here)*
+*(Visual overview of the application)*
 
 ![Project Overview](dashboard.png)
-*List of Visa Records*
+*List of Visa Records (Admin View)*
 
-![Captcha & Upload](form.png)
-*Visa Search Form with Custom Captcha*
+![Visa Search Form](form.png)
+*Visa Search Form with Custom Captcha (Public View)*
 
-![Captcha & Upload](result.png)
-*Visa Search Result*
+![Search Result](result.png)
+*Visa Search Result Detail View*
+
 ---
 
 ## 🛠 Tech Stack
@@ -28,11 +30,14 @@ A clean and efficient Visa Management application developed using the **Laravel*
 - **Backend:** Laravel 12 (PHP 8.x)
 - **Frontend:** Blade Templates / Bootstrap
 - **Database:** MySQL
-- **Key Techniques:** PHP GD Library (for Captcha), Laravel Storage (for File Uploads).
+- **Key Techniques:** - **PHP GD Library:** For generating the custom security captcha.
+  - **Laravel Storage:** For managing secure document uploads.
 
 ## 🚀 Installation & Setup
+
+Follow these steps to set up the project locally:
 
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/mdanu444/Visa-Management-System.git](https://github.com/mdanu444/Visa-Management-System.git)
-   cd visa-crud-system
+   cd Visa-Management-System
