@@ -8,19 +8,20 @@ A clean and efficient Visa Management application developed using the **Laravel 
 - **Visa Records CRUD:** Complete Create, Read, Update, and Delete functionality for managing visa applications in the backend.
 - **Secure File Upload:** Integrated document management allowing users/admins to attach and store visa-related files (e.g., PDF, Images) securely using Laravel Storage.
 - **Custom Captcha Security:** A native, custom-built security layer using the PHP **GD Library**. It generates image-based captchas to protect the search and submission forms from automated spam.
+- **Authentication System:** Integrated with Laravel's built-in secure authentication system to ensure authorized access to the administrative dashboard.
 - **Robust Validation:** Strict server-side validation to ensure data integrity and secure file format handling.
 
 ## 📸 Screenshots
 
 *(Visual overview of the application)*
 
-![Project Overview](dashboard.png)
-*List of Visa Records (Admin View)*
+![Project Overview](Dashboard.PNG)
+*Dashboard List of Visa Records (Admin View)*
 
-![Visa Search Form](form.png)
+![Visa Search Form](Capture.PNG)
 *Visa Search Form with Custom Captcha (Public View)*
 
-![Search Result](result.png)
+![Search Result](Result.PNG)
 *Visa Search Result Detail View*
 
 ---
